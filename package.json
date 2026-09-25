@@ -1,0 +1,22 @@
+{
+  "name": "playwright-mark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2"
+  },
+  "scripts": {
+    "start:api": "yarn --cwd apps/api start",
+    "start:web": "yarn --cwd apps/web start",
+    "db:init": "yarn --cwd apps/api db:init",
+    "db:drop": "yarn --cwd apps/api db:drop",
+    "test:api": "yarn --cwd apps/api test",
+    "test:e2e": "playwright test",
+    "test": "yarn test:api && yarn test:e2e"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.6.0"
+  }
+}
