@@ -21,6 +21,11 @@
   dependencies:
     undici-types "~8.9.0"
 
+dotenv@^18.0.5:
+  version "18.0.5"
+  resolved "https://registry.npmjs.org/dotenv/-/dotenv-18.0.5.tgz"
+  integrity sha512-aBrGvt6KhjxbEnatqMWOMidftwsrCiCvqh1yNIGB9QyF0J+VcWkKDMsvYOEm7ZS82oiV+BT1sTOtIlAmUlTpwQ==
+
 playwright-core@1.63.0:
   version "1.63.0"
   resolved "https://registry.npmjs.org/playwright-core/-/playwright-core-1.63.0.tgz"

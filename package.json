@@ -5,7 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.63.0",
-    "@types/node": "^26.6.2"
+    "@types/node": "^26.6.2",
+    "dotenv": "^18.0.5"
   },
   "scripts": {
     "start:api": "yarn --cwd apps/api start",
